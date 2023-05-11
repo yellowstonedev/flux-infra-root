@@ -13,6 +13,10 @@ spec:
         kind: HelmRepository
         name: jetstack
   interval: 1m0s
+  install:
+    crds: CreateReplace
+  upgrade:
+    crds: CreateReplace
   values:
     installCRDs: true
     prometheus:
