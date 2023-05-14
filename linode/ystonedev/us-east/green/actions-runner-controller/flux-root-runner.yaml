@@ -1,10 +1,10 @@
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: RunnerDeployment
 metadata:
-  name: flux-root
+  name: yellowstonedev
   namespace: actions-runner-system
 spec:
   replicas: 1
   template:
     spec:
-      repository: yellowstonedev/flux-root
+      organization: yellowstonedev
