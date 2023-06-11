@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - actions-runner-controller
 - cert-manager.yaml
+- ingress-nginx.yaml
