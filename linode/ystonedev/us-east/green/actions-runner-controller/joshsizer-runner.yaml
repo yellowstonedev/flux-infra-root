@@ -1,13 +1,13 @@
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: RunnerDeployment
 metadata:
-  name: joshsizer
+  name: joshsizer-blogposts-generator
   namespace: actions-runner-system
 spec:
   replicas: 1
   template:
     spec:
-      organization: joshsizer
+      repository: joshsizer/blogposts-generator
       githubAPICredentialsFrom:
         secretRef:
           name: joshsizer-runners
