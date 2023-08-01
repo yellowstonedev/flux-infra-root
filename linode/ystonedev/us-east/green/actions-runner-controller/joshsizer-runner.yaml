@@ -10,4 +10,4 @@ spec:
       repository: joshsizer/blogposts-generator
       githubAPICredentialsFrom:
         secretRef:
-          name: joshsizer-runner
+          name: joshsizer-runners
